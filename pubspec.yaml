@@ -1,6 +1,6 @@
 name: rxdart_codemod
 description: A collection of codemods to upgrade your RxDart code from one version to the next
-version: 0.1.3
+version: 0.1.4
 homepage: https://github.com/brianegan/rxdart_codmod
 author: Brian Egan <brian@brianegan.com>
 

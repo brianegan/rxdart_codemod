@@ -1,3 +1,7 @@
+## 0.1.4
+
+- Remove debug print statement
+
 ## 0.1.3
 
 - Add two missing SimpleTypeConverters

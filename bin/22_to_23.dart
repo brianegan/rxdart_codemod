@@ -15,8 +15,6 @@ import 'package:rxdart_codemod/extension_methods/suggestors/stream_factory_conve
 import 'package:rxdart_codemod/extension_methods/suggestors/where_type_converter.dart';
 
 void main(List<String> args) {
-  print(args);
-
   const recursive = 'recursive';
   const streamClasses = 'classes';
   const help = 'help';
