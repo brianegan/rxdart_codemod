@@ -6,7 +6,8 @@ import 'suggestors/constructor_converters_test.dart'
 import 'suggestors/error_stream_converter_test.dart'
     as error_stream_converter_test;
 import 'suggestors/factory_converter_test.dart' as factory_converter_test;
-import 'suggestors/simple_type_converters_test.dart' as simple_type_converters_test;
+import 'suggestors/simple_type_converters_test.dart'
+    as simple_type_converters_test;
 import 'suggestors/static_factory_converter_test.dart'
     as static_factory_converter_test;
 import 'suggestors/stream_factory_converter_test.dart'

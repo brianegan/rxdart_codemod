@@ -1,5 +1,6 @@
 // ignore: deprecated_member_use
-import 'package:analyzer/analyzer.dart' show GeneralizingAstVisitor, MethodInvocation;
+import 'package:analyzer/analyzer.dart'
+    show GeneralizingAstVisitor, MethodInvocation;
 import 'package:codemod/codemod.dart';
 
 class StaticFactoryConverter extends GeneralizingAstVisitor
