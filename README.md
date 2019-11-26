@@ -26,7 +26,7 @@ pub global activate rxdart_codemod
 
 ```
 cd path/to/your/code
-pub global run codemod_rxdart_22_to_23
+pub global run rxdart_codemod:22_to_23
 ```
 
 ## Arguments

@@ -15,6 +15,8 @@ import 'package:rxdart_codemod/extension_methods/suggestors/stream_factory_conve
 import 'package:rxdart_codemod/extension_methods/suggestors/where_type_converter.dart';
 
 void main(List<String> args) {
+  print(args);
+
   const recursive = 'recursive';
   const streamClasses = 'classes';
   const help = 'help';
@@ -72,7 +74,9 @@ This script will update code that uses RxDart 0.22.x to support RxDart 0.23.x.
     ],
     args: args
         .where((name) =>
-            name != help && name != streamClasses && name != recursive)
+            !name.contains(help) &&
+            !name.contains(streamClasses) &&
+            !name.contains(recursive))
         .toList(),
   );
 }

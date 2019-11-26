@@ -1,3 +1,11 @@
+## 0.1.2
+
+- Fix arguments
+
+## 0.1.1
+
+- Fix docs
+
 ## 0.1.0
 
 - Initial version
