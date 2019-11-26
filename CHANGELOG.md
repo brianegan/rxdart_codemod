@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Add two missing SimpleTypeConverters
+
 ## 0.1.2
 
 - Fix arguments

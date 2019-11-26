@@ -8,9 +8,11 @@ class SimpleTypeConverters extends GeneralizingAstVisitor
     'Observable': 'Stream',
     'ValueObservable': 'ValueStream',
     'ReplayObservable': 'ReplayStream',
-    'ConnectableObservable': 'ConnectableSream',
+    'ConnectableObservable': 'ConnectableStream',
     'ValueConnectableObservable': 'ValueConnectableStream',
     'ReplayConnectableObservable': 'ReplayConnectableStream',
+    'PublishConnectableObservable': 'PublishConnectableStream',
+    'GroupByObservable': 'GroupByStream',
   };
 
   static final converters = [
