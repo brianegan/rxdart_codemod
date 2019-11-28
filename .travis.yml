@@ -1,7 +1,7 @@
 language: dart
 sudo: false
 dart:
-- stable
+- 2.6.0
 - dev
 with_content_shell: false
 script:
