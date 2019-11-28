@@ -1,3 +1,7 @@
+## 0.1.5
+
+- Convert `myStream as Observable<int>` to `myStream`
+
 ## 0.1.4
 
 - Remove debug print statement

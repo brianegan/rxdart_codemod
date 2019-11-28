@@ -8,6 +8,7 @@ import 'package:rxdart_codemod/extension_methods/suggestors/constructor_converte
 import 'package:rxdart_codemod/extension_methods/suggestors/error_stream_converter.dart';
 import 'package:rxdart_codemod/extension_methods/suggestors/factory_converter.dart';
 import 'package:rxdart_codemod/extension_methods/suggestors/factory_stream_converter.dart';
+import 'package:rxdart_codemod/extension_methods/suggestors/observable_cast_converter.dart';
 import 'package:rxdart_codemod/extension_methods/suggestors/simple_type_converters.dart';
 import 'package:rxdart_codemod/extension_methods/suggestors/static_factory_converter.dart';
 import 'package:rxdart_codemod/extension_methods/suggestors/static_factory_stream_class_converter.dart';
@@ -68,6 +69,7 @@ This script will update code that uses RxDart 0.22.x to support RxDart 0.23.x.
       ConcatMapConverter(),
       ErrorStreamConverter(),
       WhereTypeConverter(),
+      ObservableCastConverter(),
       ...SimpleTypeConverters.converters,
     ],
     args: args

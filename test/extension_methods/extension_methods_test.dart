@@ -13,6 +13,8 @@ import 'suggestors/static_factory_converter_test.dart'
 import 'suggestors/stream_factory_converter_test.dart'
     as stream_factory_converter_test;
 import 'suggestors/where_type_converter_test.dart' as where_type_converter_test;
+import 'suggestors/observable_cast_converter_test.dart'
+    as observable_cast_converter_test;
 
 void main() {
   as_observable_converter_test.main();
@@ -24,4 +26,5 @@ void main() {
   static_factory_converter_test.main();
   stream_factory_converter_test.main();
   where_type_converter_test.main();
+  observable_cast_converter_test.main();
 }
